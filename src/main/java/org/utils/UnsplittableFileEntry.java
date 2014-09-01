@@ -9,7 +9,7 @@ import org.apache.hadoop.io.WritableComparable;
 /**
  * UnsplittableFileEntry.
  *
- * Holds some filename information. To be used as key.
+ * Holds some file information. To be used as key.
  *
  * Under Apache License 2.0 
  * 

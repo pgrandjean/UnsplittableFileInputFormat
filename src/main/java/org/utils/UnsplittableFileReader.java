@@ -18,9 +18,8 @@ import org.apache.hadoop.mapreduce.lib.input.LineRecordReader;
 /**
  * UnsplittableFileReader.
  *
- * Outputs for file included in a filename a key/value pair where the key is
- * the file name appended with date and time (.DYYMMDD.THHMMSS) and the value
- * is the content of the file.
+ * Outputs for a file a key/value pair where the key is the file name and line number,
+ * and the value is the content of the current line.
  *
  * Under Apache License 2.0 
  * 
